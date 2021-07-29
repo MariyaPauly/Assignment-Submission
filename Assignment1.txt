@@ -1,0 +1,8 @@
+x = input("enter val")
+val = [int(i) for i in x.split()]
+print(val)
+print(type(val))
+val.sort()
+print(val)
+val.reverse()
+print(val)
