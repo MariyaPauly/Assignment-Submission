@@ -1,0 +1,8 @@
+import string
+import random
+length = 8
+otp = ''
+character = string.ascii_letters + string.digits
+for i in range(length):
+    otp = otp + random.choice(character)
+print(otp)

@@ -1,0 +1,8 @@
+import string
+str = input("enter a string")
+original = set(str.lower())
+compe = set(string.ascii_lowercase)
+if original >= compe:
+    print("string is pangram")
+else:
+    print("string is not pangram")
